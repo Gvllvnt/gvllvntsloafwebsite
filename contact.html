@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Gvllvnt's Loaf</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Our Products</a></li>
+                <li><a href="enquiry.html">Custom Orders</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Get In Touch</h1>
+        <p class="page-intro">We'd love to hear from you. Come visit us at our store, give us a call, or drop us a message.</p>
+
+        <section class="contact-details">
+            <div class="location">
+                <h2>Maboneng Store</h2>
+                <p><strong>Address:</strong> Shop 7, Main Street, Maboneng Precinct, Johannesburg, 2001</p>
+                <p><strong>Hours:</strong><br>
+                    Mon - Fri: 8:00 AM - 6:00 PM<br>
+                    Sat: 8:00 AM - 4:00 PM<br>
+                    Sun: 9:00 AM - 2:00 PM
+                </p>
+                <p><strong>Phone:</strong> <a href="tel:+27111234567">011 123 4567</a></p>
+            </div>
+            <div class="location">
+                <h2>Soweto Kitchen (Collection Only)</h2>
+                <p><strong>Address:</strong> 123 Vilakazi Street, Orlando West, Soweto, 1804</p>
+                <p><strong>Hours:</strong><br>
+                    Mon - Sat: 9:00 AM - 3:00 PM<br>
+                    Sun: Closed
+                </p>
+                <p><strong>Phone:</strong> <a href="tel:+27831234567">083 123 4567</a></p>
+            </div>
+        </section>
+        <section class="map">
+            <h2>Find Us</h2>
+            <div class="map-placeholder">
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.7294208726107!2d27.904201674625483!3d-26.237979977055797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95a74602c5d081%3A0x9f9cd2245d9ce54d!2sVilakazi%20St%2C%20Orlando%20West%2C%20Soweto%2C%201804!5e0!3m2!1sen!2sza!4v1756253540839!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                <p><strong>Maboneng Precinct:</strong> <a href="https://maps.app.goo.gl/JFxkavapJwBdVgnQ8" target="_blank">View on Google Maps</a></p>
+                <p><strong>Soweto Kitchen:</strong> <a href="https://maps.app.goo.gl/WFD1vuRKjZK32K8H6" target="_blank">View on Google Maps</a></p>
+            </div>
+        </section>
+        <section class="contact-form-section">
+            <h2>Send a Message</h2>
+            <form class="contact-form" action="https://formspree.io/f/xeolqvno" method="POST">
+                <label for="contact-name">Your Name</label>
+                <input type="text" id="contact-name" name="name">
+
+                <label for="contact-email">Your Email *</label>
+                <input type="email" id="contact-email" name="email" required>
+
+                <label for="message">Your Message *</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="button">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2023 Gvllvnt's Loaf Bakery. All rights reserved.</p>
+    </footer>
+</body>
+</html>

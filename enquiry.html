@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Orders - Gvllvnt's Loaf</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Our Products</a></li>
+                <li><a href="enquiry.html">Custom Orders</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Place a Custom Order</h1>
+        <p class="page-intro">Ready to bring your vision to life? Fill out the form below to enquire about our custom cakes, catering, and large orders. We'll get back to you with a quote within 24 hours.</p>
+
+        <form class="enquiry-form" action="https://formspree.io/f/xzzabyobmn" method="POST">
+            <fieldset>
+                <legend>Your Details</legend>
+                
+                <label for="fullname">Full Name *</label>
+                <input type="text" id="fullname" name="fullname" required>
+
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Order Information</legend>
+
+                <label for="order-type">What are you interested in? *</label>
+                <select id="order-type" name="order-type" required>
+                    <option value="" disabled selected>Please select...</option>
+                    <option value="custom-cake">Custom Cake</option>
+                    <option value="catering">Catering / Event Platter</option>
+                    <option value="large-order">Large Bulk Order</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="event-date">Event or Collection Date (if applicable)</label>
+                <input type="date" id="event-date" name="event-date">
+
+                <label for="quantity">Approximate Quantity</label>
+                <input type="number" id="quantity" name="quantity" min="1" placeholder="e.g., 50 people, 1 cake">
+
+                <label for="description">Please describe your request in as much detail as possible *</label>
+                <textarea id="description" name="description" rows="5" required placeholder="e.g., 'A 2-tier cake for a 30th birthday with a soccer theme...' or 'Snack platters for a office meeting of 20 people...'"></textarea>
+            </fieldset>
+
+            <button type="submit" class="button">Submit Enquiry</button>
+        </form>
+
+    </main>
+    <footer>
+        <p>&copy; 2023 Gvllvnt's Loaf Bakery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
