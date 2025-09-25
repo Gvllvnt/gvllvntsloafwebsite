@@ -89,14 +89,14 @@ The website was thoroughly tested across multiple devices and screen sizes to en
 - Enhanced spacing and layout proportions
 
 #### Tablet View (768px)
-![Tablet View](Media/tabletview.jpg)
+![Tablet View](Media/tabletview.png)
 - Adapted horizontal navigation for tablet interaction
 - 2-column product grid layout
 - Adjusted typography scale for medium screens
 - Optimized touch targets for tablet use
 
 #### Mobile View (375px)
-![Mobile View](Media/mobileview.jpg)
+![Mobile View](Media/mobileview.png)
 - Vertical stacked navigation for touch devices
 - Single-column layout for easy mobile scrolling
 - Large touch targets (minimum 44px) for accessibility
